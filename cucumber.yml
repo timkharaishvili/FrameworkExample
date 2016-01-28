@@ -1,1 +1,2 @@
-search: --tags @search
+<% standart_opts = "--format html --out report.html --format pretty --tags ~@wip" %>
+search: <%= standart_opts %> --tags @search

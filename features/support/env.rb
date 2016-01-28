@@ -9,10 +9,6 @@ require_relative 'screen_actions'
 DEFAULT_TIMEOUT = 20
 
 
-
-
-# adb shell dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp'
-
 def caps
   { caps:       { deviceName: (ENV['DEVICE'] || "Samsung Galaxy"),
                   platformName: 'Android',
